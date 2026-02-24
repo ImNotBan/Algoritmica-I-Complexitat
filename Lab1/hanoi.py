@@ -21,4 +21,8 @@ def hanoi_iter(n: int, src: str, dest: str, aux: str) -> None:
 
 
 if __name__ == "__main__":
+    print("\nIterative solution:")
     hanoi_iter(n=4, src="A", aux="B", dest="C")
+
+    print("\nRecursive solution:")
+    hanoi_rec(n=4, src="A", aux="B", dest="C")

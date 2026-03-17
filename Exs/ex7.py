@@ -6,7 +6,7 @@ class Node:
 
 def HeightBalancedRec(array):
     if len(array) == 0:
-        return None # Es mejor ser explícito
+        return None 
     
     mid = len(array) // 2
     root = Node(array[mid])
